@@ -80,11 +80,11 @@
             alert('Token saved successfully.');
           },
           error: function (err) {
-              console.log('User Chat Token Error'+ err);
+              alert('User Chat Token Error'+ err);
           },
       });
     }).catch(function (err) {
-      console.log('User Chat Token Error'+ err);
+      alert('User Chat Token Error'+ err);
     });
   }  
   
